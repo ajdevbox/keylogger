@@ -54,9 +54,9 @@ document.addEventListener("keyup", (e) => {
   const code = document.getElementById("mycode");
   const which = document.getElementById("mywhich");
 
-  let mykey = e.key;
-  let mycode = e.code;
-  let mywhich = e.which;
+  // let mykey = e.key;
+  // let mycode = e.code;
+  // let mywhich = e.which;
 
   key.innerHTML = `${e.key}`;
   key.style.color = "#d53369";
@@ -75,99 +75,120 @@ document.addEventListener("keyup", (e) => {
   // console.log(`The KeyCode :${mywhich}`);
 });
 
-// this changes the keyboard colors 
-document.addEventListener("keyup", (e) => {
-  let keybtn = document.getElementById("esc");
-  let mywhich = e.which;
+/* ==============================================*/
 
-  switch (mywhich) {
-    case 27: 
-     keybtn = document.getElementById("esc");
-      // keybtn.style.backgroundColor = "#d53369";
-      //swicth stat,emt working but the if statement within this is not working//
-      if ((keybtn.style.backgroundColor = "#fff")) {
-        keybtn.style.backgroundColor = "#d53369"
-      } else {
-        console.log("i am here")
-      }
-      // 
+// document.addEventListener("keyup", (evt) => {
+//   document.getElementById(mywhich).classList = "esc";
+
+// });
+
+//}
+
+/* ============================================ */
+
+// change the colour of the keyboard on pressa
+
+document.addEventListener("keyup", (e) => {
+  let btnId = e.which;
+
+  function togglebtn() {
+    document.getElementById(btnId).classList = "escoff";
+    setTimeout(function () {
+      document.getElementById(btnId).classList = "esc";
+    }, 0100);
+
+  }
+
+  function toggleTwo() {
+    document.getElementById(btnId).classList = "capsoff";
+    setTimeout(function () {
+      document.getElementById(btnId).classList = "caps";
+    }, 0100);
+
+
+  }
+
+
+
+  // document.getElementById(btnId).classList = "esc"
+
+  switch (btnId) {
+    case 27:
       break;
 
     case 20:
-      // console.log("");
-      keybtn = document.getElementById("20");
-      keybtn.style.backgroundColor = "#d53369";
+      console.log("this is Capslock");
+      toggleTwo();
       break;
 
     case 81:
-      // console.log("");
-      keybtn = document.getElementById("81");
-      keybtn.style.backgroundColor = "#d53369";
+      console.log("this is q");
+      togglebtn();
       break;
 
     case 87:
-      // console.log("");
-      keybtn = document.getElementById("87");
-      keybtn.style.backgroundColor = "#d53369";
+      console.log("this is w");
+      togglebtn();
       break;
-    case 69:
-      // console.log("");
-      keybtn = document.getElementById("69");
-      keybtn.style.backgroundColor = "#d53369";
-      break;
-    case 82:
-      // console.log("");
-      keybtn = document.getElementById("82");
-      keybtn.style.backgroundColor = "#d53369";
-      break;
-    case 84:
-      // console.log("");
-      keybtn = document.getElementById("84");
-      keybtn.style.backgroundColor = "#d53369";
-      break;
-    case 89:
-      // console.log("");
-      keybtn = document.getElementById("89");
-      keybtn.style.backgroundColor = "#d53369";
-      break;
-    case 85:
-      // console.log("");
-      keybtn = document.getElementById("85");
-      keybtn.style.backgroundColor = "#d53369";
-      break;
-    case 73:
-      // console.log("");
-      keybtn = document.getElementById("73");
-      keybtn.style.backgroundColor = "#d53369";
-      break;
-    case 79:
-      // console.log("");
-      keybtn = document.getElementById("79");
-      keybtn.style.backgroundColor = "#d53369";
-      break;
-    case 80:
-      // console.log("");
-      keybtn = document.getElementById("80");
-      keybtn.style.backgroundColor = "#d53369";
-      break;
-    case 219:
-      // console.log("");
-      keybtn = document.getElementById("219");
-      keybtn.style.backgroundColor = "#d53369";
-      break;
-    case 221:
-      // console.log("");
-      keybtn = document.getElementById("221");
-      keybtn.style.backgroundColor = "#d53369";
-      break;
-    case 8:
-      // console.log("");
-      keybtn = document.getElementById("8");
-      keybtn.style.backgroundColor = "#d53369";
-      break;
-  } 
 
-  console.log(`2nd one : ${mywhich}`);
+    case 69:
+      console.log("this is e");
+      togglebtn();
+      break;
+
+    case 82:
+      console.log("this is r");
+      togglebtn();
+      break;
+
+    case 84:
+      console.log("this is t");
+      togglebtn();
+      break;
+
+    case 85:
+      console.log("this is u");
+      togglebtn();
+
+    case 73:
+      console.log("this is i");
+      togglebtn();
+      break;
+
+    case 79:
+      console.log("this is o");
+      togglebtn();
+      break;
+
+    case 80:
+      console.log("this is p");
+      togglebtn();
+
+      break;
+
+    case 65:
+      console.log("this is a");
+      togglebtn();
+      break;
+
+    case 68:
+      console.log("this is s");
+      togglebtn();
+      break;
+
+
+    case 70:
+      console.log("this is d");
+      togglebtn();
+      break;
+
+
+    case 83:
+      console.log("this is f");
+      togglebtn();
+
+      break;
+  }
 });
 
 // /*====================================*/
