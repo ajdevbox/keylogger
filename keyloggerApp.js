@@ -86,12 +86,11 @@ document.addEventListener("keyup", (e) => {
 
 /* ============================================ */
 
-// change the colour of the keyboard on pressa
-
+// change the colour of the keyboard on press
 document.addEventListener("keyup", (e) => {
   let btnId = e.which;
 
-  function togglebtn() {
+  function togglebtn() { // this is the function that changes the colour of the key
     document.getElementById(btnId).classList = "escoff";
     setTimeout(function () {
       document.getElementById(btnId).classList = "esc";
@@ -99,7 +98,7 @@ document.addEventListener("keyup", (e) => {
 
   }
 
-  function toggleTwo() {
+  function toggleTwo() { // this is the function that changes the colour of the key caps lock
     document.getElementById(btnId).classList = "capsoff";
     setTimeout(function () {
       document.getElementById(btnId).classList = "caps";
@@ -107,12 +106,9 @@ document.addEventListener("keyup", (e) => {
 
 
   }
-
-
-
   // document.getElementById(btnId).classList = "esc"
 
-  switch (btnId) {
+  switch (btnId) { // this is the switch statement that calls the function
     case 27:
       break;
 
