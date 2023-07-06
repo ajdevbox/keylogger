@@ -8,7 +8,7 @@
  https://ajdevbox.github.io/keylogger/
  
 ## Mock Design in Figma
-![OpenAI Logo](https://example.com/openai_logo.png)
+![OpenAI Logo](keylogger_design.jpg)
 
 ## HTML Structure 
 
