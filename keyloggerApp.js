@@ -2,23 +2,17 @@
 
 // const key = document.getElementById('key')
 // const code = document.getElementById('code')
-
 // document.addEventListener('keyup', (event)=> {
-
 //     key.textContent = event.key
 //     code.textContent = event.code
-
 // });
-
 // document.addEventListener('keyup', (event)=> {
 //     if () {
 //     }
 //     key.textContent = event.key
 //     code.textContent = event.code
 // });
-
 /*====================================*/
-
 // const colorChange = (color) => {
 //   document.addEventListener("keyup", (evt) => {
 //     let mykey = evt.keyCode;
@@ -90,101 +84,107 @@ document.addEventListener("keyup", (e) => {
 document.addEventListener("keyup", (e) => {
   let btnId = e.which;
 
-  function togglebtn() { // this is the function that changes the colour of the key
-    document.getElementById(btnId).classList = "escoff";
+  // function togglebtn() { // this is the function that changes the colour of the key
+  //   document.getElementById(btnId).classList = "escoff";
+  //   setTimeout(function () {
+  //     document.getElementById(btnId).classList = "esc";
+  //   }, 0100);
+
+  // }
+
+  function toggleclass(esc, caps) {
+    document.getElementById(btnId).classList = esc;
     setTimeout(function () {
-      document.getElementById(btnId).classList = "esc";
+      document.getElementById(btnId).classList = caps;
     }, 0100);
-
   }
+  // function toggleTwo() { // this is the function that changes the colour of the key caps lock
+  //   document.getElementById(btnId).classList = "capsoff";
+  //   setTimeout(function () {
+  //     document.getElementById(btnId).classList = "caps";
+  //   }, 0100);
 
-  function toggleTwo() { // this is the function that changes the colour of the key caps lock
-    document.getElementById(btnId).classList = "capsoff";
-    setTimeout(function () {
-      document.getElementById(btnId).classList = "caps";
-    }, 0100);
-
-
-  }
+  // }
   // document.getElementById(btnId).classList = "esc"
 
-  switch (btnId) { // this is the switch statement that calls the function
+  switch (
+    btnId // this is the switch statement that calls the function
+  ) {
     case 27:
       break;
 
     case 20:
       console.log("this is Capslock");
-      toggleTwo();
-      break;
+      toggleclass("capsoff", "caps");
+      return;
 
     case 81:
       console.log("this is q");
-      togglebtn();
+      //togglebtn();
       break;
 
     case 87:
       console.log("this is w");
-      togglebtn();
+      //togglebtn();
       break;
 
     case 69:
       console.log("this is e");
-      togglebtn();
+      //togglebtn();
       break;
 
     case 82:
       console.log("this is r");
-      togglebtn();
+      //togglebtn();
       break;
 
     case 84:
       console.log("this is t");
-      togglebtn();
+      //togglebtn();
       break;
 
     case 85:
       console.log("this is u");
-      togglebtn();
+    //togglebtn();
 
     case 73:
       console.log("this is i");
-      togglebtn();
+      //togglebtn();
       break;
 
     case 79:
       console.log("this is o");
-      togglebtn();
+      //togglebtn();
       break;
 
     case 80:
       console.log("this is p");
-      togglebtn();
+      //togglebtn();
 
       break;
 
     case 65:
       console.log("this is a");
-      togglebtn();
+      //togglebtn();
       break;
 
     case 68:
       console.log("this is s");
-      togglebtn();
+      //togglebtn();
       break;
-
 
     case 70:
       console.log("this is d");
-      togglebtn();
+      //togglebtn();
       break;
-
 
     case 83:
       console.log("this is f");
-      togglebtn();
+      //togglebtn();
 
       break;
   }
+  toggleclass("escoff", "esc");
 });
 
 // /*====================================*/
