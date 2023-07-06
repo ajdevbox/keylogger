@@ -8,7 +8,7 @@
  https://ajdevbox.github.io/keylogger/
  
 ## 🛠 Mock Design in Figma
-![Mock Design](keylogger_design.jpg)
+![Mock Design](figma.jpg)
 
 ## ⌨ HTML Structure / CSS Design 
 ![HTML and CSS Code ](codesnippet.jpg)
