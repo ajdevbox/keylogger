@@ -183,6 +183,8 @@ document.addEventListener("keyup", (e) => {
       //togglebtn();
 
       break;
+    case 13:
+      toggleclass("enter", "enteroff");
   }
   toggleclass("escoff", "esc");
 });
