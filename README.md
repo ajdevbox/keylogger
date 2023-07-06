@@ -10,10 +10,11 @@
 ## Mock Design in Figma
 ![Mock Design](keylogger_design.jpg)
 
-## HTML Structure 
+## HTML Structure / CSS Design 
 ![HTML Code ](codesnippet.jpg)
 
-## CSS Design 
+### Creating the mock up design of the keynboard in Figma helped me think about how I was going to structure the HTML Markup.  As you can see from the code snippets I decided to 
+
 
 ## Javascript 
 
