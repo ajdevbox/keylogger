@@ -11,7 +11,7 @@
 ![Mock Design](keylogger_design.jpg)
 
 ## HTML Structure 
-![HTML Code ](htmlsnippet.jpg)
+![HTML Code ](codesnippet.jpg)
 
 ## CSS Design 
 
