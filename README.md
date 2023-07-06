@@ -8,6 +8,7 @@
  https://ajdevbox.github.io/keylogger/
  
 ## Mock Design in Figma
+![OpenAI Logo](https://example.com/openai_logo.png)
 
 ## HTML Structure 
 
