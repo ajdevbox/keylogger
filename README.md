@@ -11,6 +11,7 @@
 ![OpenAI Logo](keylogger_design.jpg)
 
 ## HTML Structure 
+![OpenAI Logo](html.jpg)
 
 ## CSS Design 
 
