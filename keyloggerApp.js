@@ -112,7 +112,7 @@ document.addEventListener("keyup", (e) => {
   ) {
     case 20:
       console.log("this is Capslock");
-      toggleclass("capsoff", "caps");
+      // toggleclass("capsoff", "caps");
       return;
 
     case 81:
@@ -142,8 +142,7 @@ document.addEventListener("keyup", (e) => {
 
     case 85:
       console.log("this is u");
-      //togglebtn();
-      break;
+    //togglebtn();
 
     case 73:
       console.log("this is i");
@@ -185,6 +184,7 @@ document.addEventListener("keyup", (e) => {
       toggleclass("enter", "enteroff");
       return;
   }
+  toggleclass("escoff", "esc");
 });
 
 // /*====================================*/
