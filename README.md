@@ -6,7 +6,18 @@
 
 ## 🎯 Link 
  https://ajdevbox.github.io/keylogger/
-##
+ 
+## Mock Design in Figma
+
+## HTML Structure 
+
+## CSS Design 
+
+## Javascript 
+
+## Challenges & Key Learning
+
+
 
 
 
