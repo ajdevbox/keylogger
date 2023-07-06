@@ -1,7 +1,7 @@
-# Keylogger 
+# 😎 Keylogger 
 <br> </br>
-## Keylogger - A playful app to log keypress
+## A playful app to log keypress 
 
-😎 https://ajdevbox.github.io/keylogger/
+ https://ajdevbox.github.io/keylogger/
 
 Just a 
