@@ -110,9 +110,6 @@ document.addEventListener("keyup", (e) => {
   switch (
     btnId // this is the switch statement that calls the function
   ) {
-    case 27:
-      break;
-
     case 20:
       console.log("this is Capslock");
       toggleclass("capsoff", "caps");
@@ -145,7 +142,8 @@ document.addEventListener("keyup", (e) => {
 
     case 85:
       console.log("this is u");
-    //togglebtn();
+      //togglebtn();
+      break;
 
     case 73:
       console.log("this is i");
@@ -187,7 +185,6 @@ document.addEventListener("keyup", (e) => {
       toggleclass("enter", "enteroff");
       return;
   }
-  toggleclass("escoff", "esc");
 });
 
 // /*====================================*/
