@@ -96,14 +96,18 @@ document.addEventListener("keyup", (e) => {
     document.getElementById(btnId).classList = esc;
     setTimeout(function () {
       document.getElementById(btnId).classList = caps;
-    }, 0100);
+    }, 100);
+    // event.stopPropagation();
   }
-  // function toggleTwo() { // this is the function that changes the colour of the key caps lock
-  //   document.getElementById(btnId).classList = "capsoff";
-  //   setTimeout(function () {
-  //     document.getElementById(btnId).classList = "caps";
-  //   }, 0100);
 
+  // function toggleTwo() {
+  //   // this is the function that changes the colour of the key caps lock
+  //   document.getElementById(btnId).classList = "enter";
+  //   setTimeout(function () {
+  //     document.getElementById(btnId).classList = "enteroff";
+  //   }, 100);
+  //   event.stopPropagation();
+  // }
   // }
   // document.getElementById(btnId).classList = "esc"
 
@@ -112,7 +116,7 @@ document.addEventListener("keyup", (e) => {
   ) {
     case 20:
       console.log("this is Capslock");
-      // toggleclass("capsoff", "caps");
+      toggleclass("capsoff", "caps");
       return;
 
     case 81:
@@ -141,8 +145,9 @@ document.addEventListener("keyup", (e) => {
       break;
 
     case 85:
+      //togglebtn();
       console.log("this is u");
-    //togglebtn();
+      break;
 
     case 73:
       console.log("this is i");
@@ -157,7 +162,6 @@ document.addEventListener("keyup", (e) => {
     case 80:
       console.log("this is p");
       //togglebtn();
-
       break;
 
     case 65:
@@ -178,10 +182,15 @@ document.addEventListener("keyup", (e) => {
     case 83:
       console.log("this is f");
       //togglebtn();
-
       break;
+
     case 13:
-      toggleclass("enter", "enteroff");
+      toggleclass("enteroff", "enter");
+      console.log("enteroff", "enter");
+      return;
+
+    case 8:
+      toggleclass("backoff", "back");
       return;
   }
   toggleclass("escoff", "esc");
