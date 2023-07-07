@@ -32,8 +32,13 @@ I create a function called toggleclass to change the CSS classes of the buttons,
 This part took me a while to figure out but as taught in on the School of Code bootcamp break the problem down into small parts 
 
 
-## Challenges & Key Learning
+## ✍ Challenges & Key Learning
+Key takeaways for this little project was to really think about what the code is doing and don’t forget to include the break statement in all case.
 
+
+I missed the opportunity to use root variables in the CSS and maybe think about using better naming conventions for CSS class names as I confused myself when I took a few days break and returned back to look at the code base 😅
+
+Really enjoyed learning about flex box and switch statments and look forward to using some CSS frameworks 
 
 
 
