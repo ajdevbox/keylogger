@@ -17,7 +17,7 @@ The CSS part was really fun and fustrating at the same time but researching how 
 Using the document.addEventListener() method to listen for the "keyup" event. When a key is released on the users keyboard, the function is executed, retrieving the corresponding element using a ID specfifed and then using document.getElementById() and assigning it to the const variable.  This was like magic to me that I finally started to experince how to manipulate and interact with the DOM 🧩
 
 ## ⚙ Functions 
-![JS Code ](switch.jpg)
+![JS Code ](.jpg)
 Rather than using a list a if else statements I looked into using switch statements using various resources online and found this to be the best fit for what I wanted to achieve.  Staying true to what was taught in week 1 of School of Code Bootcamp I could hear the coaches voice in the background.....
 
       break down the problem statement and write out the tasks that your trying to solve in plain english   
