@@ -6,7 +6,7 @@ This was a playful application I created using HTML and CSS JavaScript.  Once I 
 ![Mock Design](figma.jpg)
 
 ## ⌨ HTML Structure & CSS Design 
-![HTML and CSS Code ](.jpg)
+![HTML and CSS Code ](codesnippet.jpg)
 
 Creating the mock up design of the keyboard in Figma helped me think about how I was going to structure the HTML Markup.  As you can see from the code snippets I decided to use a number of ```<div></div>``` to create sections for each area of the keyboard such as the F1 keys, number keys and the main keyboard area.  
 
