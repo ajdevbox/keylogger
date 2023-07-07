@@ -17,11 +17,11 @@ Creating the mock up design of the keyboard in Figma helped me think about how I
 
 The CSS part was really fun and fustrating at the same time but researching how to use flexbox and using the ```border-radius: 10px```; css property made the keyboard pop.   At this stage I wasn’t sure how I would link the user interaction
 
-## Javascript 
+## 💎 Javascript 
 ![JS Code ](javascript.jpg)
 Using the document.addEventListener() method to listen for the "keyup" event. When a key is released on the users keyboard, the function is executed, retrieving the corresponding element using a ID within document.getElementById() and assigns it to the const variable as defined.
 
-## Functions 
+## ⚙ Functions 
 ![JS Code ](switch.jpg)
 Rather than using a list a if else statements I looked into using switch statements using various resources online and found this to be the best fit for what I wanted to achieve.  
 
