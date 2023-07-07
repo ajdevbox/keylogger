@@ -1,15 +1,13 @@
 # 😎 Keylogger 
 <br>
-
-
-> ### This was a playful application I created using HTML and CSS JavaScript.  Once I was exposed to the ```document.addEventListener()``` which is a method used in JavaScript to attach an event listener to a specific element in a web page I decided to challenge myslef and see if I could create a keyboard inspired app to log key presses.
+> This was a playful application I created using HTML and CSS JavaScript.  Once I was exposed to the ```document.addEventListener()``` which is a method used in JavaScript to attach an event listener to a specific element in a web page I decided to challenge myslef and see if I could create a keyboard inspired app to log key presses.
 
 ## 🎯 Link 
  https://ajdevbox.github.io/keylogger/
 
 ##  
 
-## 🛠 Mock Design in Figma
+### 🛠 Mock Design in Figma
 ![Mock Design](figma.jpg)
 
 ## ⌨ HTML Structure / CSS Design 
@@ -21,6 +19,18 @@ The CSS part was really fun and fustrating at the same time but researching how 
 
 ## Javascript 
 ![JS Code ](javascript.jpg)
+Using the document.addEventListener() method to listen for the "keyup" event. When a key is released on the users keyboard, the function is executed, retrieving the corresponding element using a ID within document.getElementById() and assigns it to the const variable as defined.
+
+## Functions 
+![JS Code ](switch.jpg)
+Rather than using a list a if else statements I looked into using switch statements using various resources online and found this to be the best fit for what I wanted to achieve.  
+
+Once I was able to capture the key event press it was easy to store this in a variable to be used in the switch case to evalute and the perform  a case block.  In this app it was to listen out for a keypress value and then change the style of the button.  
+
+I create a function called toggleclass to change the CSS classes of the buttons, which in turn modifies their appearance. It applies a class to a button to indicate that it has been pressed, and after a short delay, it reverts the button back to its original appearance. 
+
+This part took me a while to figure out but as taught in on the School of Code bootcamp break the problem down into small parts 
+
 
 ## Challenges & Key Learning
 
