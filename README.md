@@ -35,7 +35,7 @@ Key takeaways for this little project was to really think about what the code is
 
 I missed the opportunity to use root variables in the CSS and maybe think about using better naming conventions for CSS class names as I confused myself when I took a few days break and returned back to look at the code base 😅
 
-Really enjoyed learning about flex box and switch statments and look forward to using some CSS frameworks 
+      Really enjoyed learning about flex box and switch statments and look forward to using some CSS frameworks 
 
 ## 🎯 Link 
 
