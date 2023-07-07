@@ -20,22 +20,20 @@ Using the document.addEventListener() method to listen for the "keyup" event. Wh
 ![JS Code ](switch.jpg)
 Rather than using a list a if else statements I looked into using switch statements using various resources online and found this to be the best fit for what I wanted to achieve.  Staying true to what was taught in week 1 of School of Code Bootcamp I could hear the coaches voice in the background.....
 
-   break down the problem statement and write out the tasks that your trying to solve in plain english   
+      break down the problem statement and write out the tasks that your trying to solve in plain english   
 
-Once I was able to capture the key event press it was easy to store this in a variable to be used in the switch case to evalute and the perform  a case block.  In this app it was to listen out for a keypress value and then change the style of the button.  
+Having researched and found the keypress event provides a charCode that represents the character value of the key pressed. This value corresponds to the character code or Unicode value of the entered character.  For example, when the letter "A" key is pressed, the charCode is 65, as it corresponds to the character code for the letter "A" in the ASCII table.  Once I was able to capture the key event press it was easy to store this in a variable to be used in the switch case to evalute and then perform a case block for each value.  
 
-I create a function called toggleclass to change the CSS classes of the buttons, which in turn modifies their appearance. It applies a class to a button to indicate that it has been pressed, and after a short delay, it reverts the button back to its original appearance. 
+I created a function called toggleclass to change the CSS classes of the keyboard key, which in turn modifies their appearance (colour). It applies a class to a keyboard character to indicate that it has been pressed, and after a short delay, it reverts back to its original appearance. 
 
-This part took me a while to figure out but as taught in on the School of Code bootcamp break the problem down into small parts 
-
+This part took me a while to figure out and after sometime and a few 100 console.log() I started to get the interaction working 😅
 
 ## ✍ Challenges & Key Learning
-Key takeaways for this little project was to really think about what the code is doing and don’t forget to include the break statement in all case.
+Key takeaways for this little project was to really think about what the code is doing and don’t forget to include break in all case statements.
 
+When it came to the css I missed the opportunity to use root variables and use better naming conventions for CSS class names as I confused myself when I took a few days break and returned back to look at the code base 😅
 
-I missed the opportunity to use root variables in the CSS and maybe think about using better naming conventions for CSS class names as I confused myself when I took a few days break and returned back to look at the code base 😅
-
-      Really enjoyed learning about flex box and switch statments and look forward to using some CSS frameworks 
+and Finally really enjoyed learning about flex box and switch statements.  Im really look forward to using some CSS frameworks and maybe try mi hand at TailwindCSS
 
 ## 🎯 Link 
 
