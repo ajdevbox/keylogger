@@ -23,9 +23,11 @@ Rather than using a list a if else statements I looked into using switch stateme
 
       break down the problem statement and write out the tasks that your trying to solve in plain english   
 
-Having researched and found the keypress event provides a charCode that represents the character value of the key pressed. This value corresponds to the character code or Unicode value of the entered character.  For example, when the letter "A" key is pressed, the charCode is 65, as it corresponds to the character code for the letter "A" in the ASCII table.  Once I was able to capture the key event press it was easy to store this in a variable to be used in the switch case to evalute and then perform a case block for each value.  
+Having researched and found the keypress event provides a charCode that represents the character value of the key pressed. This value corresponds to the character code or Unicode value of the entered character.  For example, when the letter "A" key is pressed, the charCode is 65, as it corresponds to the character code for the letter "A" in the ASCII table.  
 
-I created a function called toggleclass to change the CSS classes of the keyboard key, which in turn modifies their appearance (colour). It applies a class to a keyboard character to indicate that it has been pressed, and after a short delay, it reverts back to its original appearance. 
+* Once I was able to capture the key event press it was easy to store this in a variable to be used in the switch case to evalute and then perform a case block for each value.  
+* I created a function called toggleclass to change the CSS classes of the keyboard key, which in turn modifies their appearance (colour). 
+* It applies a class to a keyboard character to indicate that it has been pressed, and after a short delay, it reverts back to its original appearance. 
 
 This part took me a while to figure out and after sometime and a few 100 console.log() I started to get the interaction working 😅
 
