@@ -32,11 +32,11 @@ Having researched and found the keypress event provides a charCode that represen
 This part took me a while to figure out and after sometime and a few 100 console.log() I started to get the interaction working 😅
 
 ## ✍ Challenges & Key Learning
-Key takeaways for this little project was to really think about what the code is doing and don’t forget to include break in all case statements.
+* Key takeaways for this little project was to really think about what the code is doing and don’t forget to include break in all case statements.
 
-When it came to the css I missed the opportunity to use root variables and use better naming conventions for CSS class names as I confused myself when I took a few days break and returned back to look at the code base 😅
+* When it came to the css I missed the opportunity to use root variables and use better naming conventions for CSS class names as I confused myself when I took a few days break and returned back to look at the code base 😅
 
-and Finally really enjoyed learning about flex box and switch statements.  Im really look forward to using some CSS frameworks and maybe try mi hand at TailwindCSS
+* and Finally really enjoyed learning about flex box and switch statements.  Im really look forward to using some CSS frameworks and maybe try mi hand at TailwindCSS
 
 ## 🎯 Link 
 
