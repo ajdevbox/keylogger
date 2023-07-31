@@ -15,7 +15,8 @@ The CSS part was really fun and fustrating at the same time but researching how 
 
 ## 💎 Javascript 
 ![JS Code ](javascript.jpg)
-Using the document.addEventListener() method to listen for the "keyup" event. When a key is released on the users keyboard, the function is executed, retrieving the corresponding element using a ID specfifed and then using document.getElementById() and assigning it to the const variable.  This was like magic to me that I finally started to experince how to manipulate and interact with the DOM 🧩
+
+* Using the document.addEventListener() method to listen for the "keyup" event. When a key is released on the users keyboard, the function is executed, retrieving the corresponding element using a ID specfifed and then using document.getElementById() and assigning it to the const variable.  This was like magic to me that I finally started to experince how to manipulate and interact with the DOM 🧩
 
 ## ⚙ Functions 
 ![JS Code ](switch.jpg)
