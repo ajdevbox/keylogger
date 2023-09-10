@@ -1,4 +1,4 @@
-# 😎 Keylogger 
+# 😎 Keylogger (not mobile resposive)
 ![Mock Design](header.jpg)
 <br>
 This was a playful application I created using HTML and CSS JavaScript.  Once I was exposed to the document.addEventListener() which is a method used in JavaScript to attach an event listener to a specific element in a web page.  I decided to challenge myslef and see if 
